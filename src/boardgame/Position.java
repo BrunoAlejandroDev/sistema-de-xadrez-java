@@ -3,36 +3,36 @@ package boardgame;
 public class Position {
 
 	// ATRIBUTOS
-	private int linha;
-	private int coluna;
+	private int row;
+	private int column;
 	
 	// CONSTRUTOR
-	public Position(int linha, int coluna) {
-		this.linha = linha;
-		this.coluna = coluna;
+	public Position(int row, int column) {
+		this.row = row;
+		this.column = column;
 	}
-
+	
 	// GETTERS E SETTERS
-	public int getLinha() {
-		return linha;
+	public int getRow() {
+		return row;
 	}
 
-	public void setLinha(int linha) {
-		this.linha = linha;
+	public void setRow(int row) {
+		this.row = row;
 	}
 
-	public int getColuna() {
-		return coluna;
+	public int getColumn() {
+		return column;
 	}
 
-	public void setColuna(int coluna) {
-		this.coluna = coluna;
+	public void setColumn(int column) {
+		this.column = column;
 	}
 
 	// METODOS PUBLICOS
 	@Override
 	public String toString() {
-		return "Posição da peça [Linha: " + linha + ", Coluna: " + coluna + "]";
+		return "Posição da peça [Linha: " + row + ", Coluna: " + column + "]";
 	}
 	
 }

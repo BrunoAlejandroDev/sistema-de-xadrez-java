@@ -1,14 +1,13 @@
 package application;
 
-import boardgame.Position;
+import chess.ChessMatch;
 
 public class Program {
 
 	public static void main(String[] args) {
 		
-		// Teste da classe Position
-		Position posicao = new Position(3, 5);
-		System.out.println(posicao.toString());
+		ChessMatch chessMatch = new ChessMatch();
+		UI.printBoard(chessMatch.getPieces());
 		
 
 	}

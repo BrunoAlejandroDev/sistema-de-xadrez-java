@@ -3,16 +3,16 @@ package boardgame;
 public class Piece {
 
 	// ATRIBUTOS
-	protected Position posicao;
-	private Board tabuleiro;
+	protected Position position;
+	private Board board;
 	
-	public Piece(Board tabuleiro) {
-		this.tabuleiro = tabuleiro;
-		posicao = null; // posicao inicial da peça sera nula pois existem metodos para atribuir posicao
+	public Piece(Board board) {
+		this.board = board;
+		position = null; // posicao inicial da peça sera nula pois existem metodos para atribuir posicao
 	}
 
 	public Board getTabuleiro() {
-		return tabuleiro;
+		return board;
 	}
 	
 }
